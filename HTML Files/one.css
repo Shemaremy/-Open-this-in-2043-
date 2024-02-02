@@ -1,0 +1,191 @@
+nav
+{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 17vh;
+    border: 1px solid rgb(110, 96, 96);
+    
+
+
+}
+
+.Top_left_logo
+{
+    padding-left: 100px;
+}
+
+.top_right_links
+{
+    margin: 0;
+    padding-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.top_right_links a {
+    margin-right: 20px; 
+}
+
+
+
+main
+{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 66vh;
+}
+
+
+.left_middle_words
+{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 50px;
+    padding-bottom: 120px;
+     
+}
+.hello_h2 {
+    margin-bottom: 5px; /* Adjust the margin-bottom to reduce the space between h2 and h1 */
+}
+
+.shema_h1 {
+    margin-top: 5px; /* Adjust the margin-top to reduce the space between h1 and h2 */
+}
+.p1
+{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.view-cv-button {
+    margin-top: 10px;
+    margin-left: 30px;
+    padding: 20px 20px;  
+    background-color: #4CAF50;  
+    color: white;  
+    border: none;
+    border-radius: 40px;  
+    cursor: pointer;
+    margin-bottom: 1px;
+    box-shadow: 
+        0 2px 5px rgba(0, 0, 0, 0.2),
+        0 10px 20px rgba(0, 0, 0, 0.15),
+        0 15px 30px rgba(0, 0, 0, 0.3);
+}
+ 
+.my_image
+{
+    text-align: right;
+    padding-right: 250px;
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/*
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus,
+*:active {
+    outline: none !important;
+    -webkit-tap-highlight-color: transparent;
+}
+*/
+
+
+.wrapper{
+    display: inline-flex;
+    list-style: none;
+    margin-top: 1px;
+}
+
+
+.wrapper .icon{
+    position: relative;
+    background: #c9c9c9;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    width: 10px;
+    height: 10px;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    box-shadow: 
+        0 2px 5px rgba(0, 0, 0, 0.1),
+        0 10px 20px rgba(0, 0, 0, 0.15),
+        0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .tooltip{            /*  Updating the text in that pops up*/
+    position: absolute;
+    top: 0;
+    font-size: 12px;
+    background: #fff;
+    color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+.wrapper .icon:hover .tooltip{    /* This helps the poping up */
+    top: -45px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+ 
+
+ 
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+    background: linear-gradient(135deg, #40b6ff, #1877f2);
+    color: #fff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+    background: linear-gradient(135deg, #ff3d47, #f77737, #fcaf45);;
+    color: #fff;
+}
+
+.wrapper .behance:hover,
+.wrapper .behance:hover .tooltip,
+.wrapper .behance:hover .tooltip::before {
+    background: linear-gradient(135deg, #6299ff, #2141e8);
+    color: #fff;
+}
+ 
+.wrapper .linkedin:hover,
+.wrapper .linkedin:hover .tooltip,
+.wrapper .linkedin:hover .tooltip::before {
+    background: linear-gradient(135deg, #0077B5, #2492c5);
+    color: #fff;
+}
+
+
+
